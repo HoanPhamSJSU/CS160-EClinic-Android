@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486419306221",
+    "project_id": "eclinic-sjsu",
+    "storage_bucket": "eclinic-sjsu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486419306221:android:1b0c880c048d5a16b6dee4",
+        "android_client_info": {
+          "package_name": "edu.sjsu.android.eclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486419306221-t0554unijq2h823c11l81kojj8b38ets.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKm9dJKd8wJMgtFqAx159P1quaEZmnILs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486419306221-t0554unijq2h823c11l81kojj8b38ets.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

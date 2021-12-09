@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">EClinic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_appointment">Appointment</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_history">Medical History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_description">Image View</string>
+    <string name="hello">Hello</string>
+    <string name="hoan_pham">Hoan Pham</string>
+    <string name="appointments">Appointments</string>
+    <string name="see_all">See All</string>
+    <string name="top_doctors">Top Doctors</string>
+    <string name="covid_19">Covid 19</string>
+    <string name="hospital">Hospital</string>
+    <string name="emergency">Emergency</string>
+    <string name="pills">Pills</string>
+    <string name="menu_doctor_detail">Doctor Detail</string>
+    <string name="menu_doctor_details">Doctor Details</string>
+    <string name="overview">Overview</string>
+    <string name="about">About</string>
+    <string name="book_an_appointment">Book an appointment</string>
+    <string name="location">Location</string>
+    <string name="rating">Rating</string>
+    <string name="experiences">Experiences</string>
+    <string name="_10_years">10 years</string>
+    <string name="_100">100+</string>
+    <string name="patients">Patients</string>
+    <string name="experience">Experience</string>
+    <string name="oppoinments">Appointments</string>
+    <string name="email_address">Email Address</string>
+    <string name="user_name">Username</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="log_out">Log Out</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="working_time">Working Time</string>
+    <string name="working_time_monday_friday">Mon - Fri,  From 8 Am - to 8 PM</string>
+    <string name="schedule">Schedule</string>
+    <string name="confirmation">Confirmation</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="edu.sjsu.android.eclinic.ui.appointment.AppointmentFragment"
+        android:label="@string/menu_appointment"
+        tools:layout="@layout/fragment_appointment" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="edu.sjsu.android.eclinic.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.sjsu.android.eclinic.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_nav_doctor_details"
+            app:destination="@id/nav_doctor_details"
+            app:launchSingleTop="true" />
+        <argument
+            android:name="doctor_detail"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings"
+            app:destination="@id/nav_settings" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_history"
+            app:destination="@id/nav_history" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_appointment"
+            app:destination="@id/nav_appointment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="edu.sjsu.android.eclinic.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="edu.sjsu.android.eclinic.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_doctor_details"
+        android:name="edu.sjsu.android.eclinic.ui.doctors.DoctorDetailsFragment"
+        android:label="@string/menu_doctor_details"
+        tools:layout="@layout/fragment_doctor_details" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="edu.sjsu.android.eclinic.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="edu.sjsu.android.eclinic.ui.info.InfoFragment"
+        android:label="InfoFragment" />
+</navigation>
